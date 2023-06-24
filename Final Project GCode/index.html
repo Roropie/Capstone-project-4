@@ -1,41 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group 4 Final project</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Caridad Center Donation Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-    <body>
-     <script src="main.js"></script> 
-
-<!--Donation form page HTML-->
- <div class="container">
-  <!-- STILL WORKING ON INSERTING LOGO ACTUAL LOGO PIC <img src="logo.png" alt="Company Logo" class="logo"> -->
-    <h1>Donation Page</h1>
+<body>
+  <div class="container">
+    <img src="CaridadCenterLogo.png"  class="logo">
+    <h1>Caridad Center Donation Page</h1>
     
     <p class="thank-you">Thank you for considering a donation to Caridad Center. Your support is greatly appreciated and will make a difference in the lives of those in need.</p>
     
     <form id="donationForm">
-      <label for="firstName">First Name:</label>
-      <input type="text" id="firstName" required>
-      
-      <label for="lastName">Last Name:</label>
-      <input type="text" id="lastName" required>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" placeholder="Enter your full name" required>
       
       <label for="phoneNumber">Phone Number:</label>
-      <input type="tel" id="phoneNumber" required>
+      <input type="tel" id="phoneNumber" placeholder="xxx-xxx-xxxx" required>
       
       <label for="email">Email Address:</label>
-      <input type="email" id="email" required>
+      <input type="email" id="email" placeholder="Someone@example.com" required>
       
       <label for="donationAmount">Donation Amount:</label>
       <input type="number" id="donationAmount" required>
       
       <label for="creditCard">Credit Card Info:</label>
-      <input type="text" id="creditCard" required>
+      <input type="text" id="creditCard" placeholder="0000 0000 0000 0000" required>
       
       <label for="billingAddress">Billing Address:</label>
       <input type="text" id="billingAddress" required>
@@ -49,8 +39,9 @@
     <p id="thankYouText"></p>
   </div>
 
-    
+  <script src="main.js"></script>
 </body>
 </html>
+
 
 
