@@ -19,9 +19,9 @@
                         <nav> 
                             <ul>
                                 <li class="dropdown">
-                                    <a href="index.html">Caridad Center</a>
+                                    <a href="home.html">Caridad Center</a>
                             <ul class="dropdown-menu"> 
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="home.html">Home</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="opportunities.html">Opportunities</a></li>
                                 <li><a href="contacts.html"> Contacts </a></li>
