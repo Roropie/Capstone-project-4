@@ -1,0 +1,167 @@
+body{ 
+    background-color: #A3BFDA;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+/*IMAGES*/
+img{ 
+  width:20px;
+  height:20px;
+}
+.map{
+  width:740px;
+  height: 300px; 
+  text-align: center;
+}
+.fence{
+  width:740px; 
+  height:300px; 
+}
+.building{
+  width:740px; 
+  height:300px; 
+}
+/*NAVIGATION BAR*/
+.headernav nav{
+    display: flex;
+   justify-content: flex-end;
+   position:fixed;
+   top:0;
+   right:0;
+}
+.headernav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #cbcaca;
+    border-radius: 35px;
+    text-align: right;
+    width: 350px;
+  }
+  
+.headernav li {
+    display: inline-block;
+  }
+  
+.headernav li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+  }
+  
+.headernav li a:hover {
+    background-color: #ccc;
+  }
+/*CIRCLE MENU*/
+.dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+.dropdown-menu li{
+    display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu li:hover {
+    background-color: #ccc;
+}
+/*LOGO & DONATION BUTTON*/
+.navitems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 10px;
+  margin-right: 10px;
+  }
+  .navitems img{
+    grid-column-start:1;
+    grid-column-end: 2; 
+    grid-row-start:1;
+    grid-row-end:2; 
+  }
+.logo{ 
+  grid-area: 1 / 1 / 2 / 2; 
+  width:200px;
+  height:100px; 
+}
+
+.donationbutton{
+  background-color: #FF5252;
+  border:none;
+  border-radius: 80px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width:150px;
+  height: 50px;
+  grid-area: 1 / 3 / 2 / 4;
+}
+/*FOOTER*/
+footer ul{
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Apply horizontal layout */
+}
+footer li{ 
+  margin-right: 10px;
+} 
+footer {
+  background-color:rgba(79, 82, 100, 0.306);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-radius: 20px;
+  }
+  
+  .location { 
+    color:#164570;
+    background-color:rgba(255, 255, 255, 0.866);
+    border-style: dotted;
+    margin-left:5px;
+    margin-right: 10px; 
+    grid-area: 1 / 1 / 2 / 2; 
+  }
+  .location-list{ 
+    grid-area: 2 / 1 / 3 / 2; 
+  }
+  .clinic-hours { 
+    color:#164570;
+    background-color:rgba(255, 255, 255, 0.866);
+    border-style: dotted; 
+    margin-right:5px;
+    margin-left:10px; 
+    grid-area: 1 / 2 / 2 / 3;
+   }
+  .clinic-hours-list{ 
+    grid-area: 2 / 2 / 3 / 3; 
+  }
+  .clinic-hours-list ul a{ 
+    text-decoration: none;
+  }
+  .socials{ 
+    color:#164570;
+    background-color:rgba(255, 255, 255, 0.866); 
+    border-style:dotted; 
+    margin-left:5px;
+    margin-right:10px;
+    grid-area: 3 / 1 / 4 / 2; 
+  }
+  .social-media-list{ 
+    grid-area: 3 / 2 / 4 / 3;
+    
+   }
+   .social-media-list li{ 
+    width: 20px;
+    height: 20px;
+   }
+  .copyright { 
+    grid-area: 4 / 1 / 5 / 3;
+   }
