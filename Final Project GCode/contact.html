@@ -45,24 +45,50 @@
         </header>
     <h2> Contact Us </h2>
     <div class="contact">
-        <form action="action_page.php" id="myForm">
-            <!-- Your form fields go here -->
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="Your email..">
+    
+            <form id="myForm">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
             
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.."> </textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+              
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."> </textarea>
+              </form>
+            
+              <script>
+                function showNotification() {
+                  var name = document.getElementById("name").value;
+                  var email = document.getElementById("email").value;
+            
+                  if (name === "" || email === "") {
+                    alert("Please fill in all fields.");
+                    return false; // Prevent form submission
+                  }
+            
+                  // Additional validation logic here if needed
+            
+                  if (Notification.permission === "granted") {
+                    var notification = new Notification("Form Submitted", {
+                      body: "Thank you, " + name + "! A team member will reach out to you shortly at " + email,
+                    });
+                  } else if (Notification.permission !== "denied") {
+                    Notification.requestPermission().then(function(permission) {
+                      if (permission === "granted") {
+                        var notification = new Notification("Form Submitted", {
+                          body: "Thank you, " + name + "! A team member will reach out to you shortly at " + email,
+                        });
+                      }
+                    });
+                  }
+            
+                  return false; // Prevent form submission
+                }
+                </script>
           </div>
         </body>
         <!--FOOTER-->
