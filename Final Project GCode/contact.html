@@ -1,1 +1,70 @@
-
+<!DOCTYPE html lang="en">
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="CaridadCenterLogo.png" type="image/png">
+        <script src="js/script.js">
+        </script>
+        <title> Caridad Center - Home </title>
+    </head>
+    <body>
+        <!--HEADER Include navigation, logo, & donation button -->
+        <header>
+            <!--<h1>Caridad</h1>-->
+            <!--NAVIGATION DROPDOWN MENU-->
+            <h1> Welcome to the Caridad Center</h1>
+                    <div class="headernav">
+                        <nav> 
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="home.html">Caridad Center</a>
+                            <ul class="dropdown-menu"> 
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="opportunities.html">Opportunities</a></li>
+                                <li><a href="contacts.html"> Contacts </a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--LOGO IMAGE-->
+                    <div class="navitems">
+                    <img class="logo" src="CaridadCenterLogo.png" alt="The Caridad Center Logo">
+                    <!--DONATION BUTTON-->
+                    <button type="button" class="donationbutton">Donate Now!</button>
+                    </div>
+                     
+        </header>
+    <h2> Contact Us </h2>
+    <div class="contact">
+        <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+            
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.."> </textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        </body>
+        <!--FOOTER-->
+        <footer>
+            <!--Copyright-->
+            <div class="copyright">
+                <p>Caridad Center &copy; 2022 All rights reserved.</p>
+            </div>  
+        </footer>
+</html>
