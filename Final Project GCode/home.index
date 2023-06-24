@@ -4,9 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="tyle.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="CaridadCenterLogo.png" type="image/png">
-        <script src="js/script.js"></script>
         <title> Caridad Center - Home </title>
     </head>
     <body>
@@ -24,7 +23,7 @@
                                 <li><a href="home.html">Home</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="opportunities.html">Opportunities</a></li>
-                                <li><a href="contacts.html"> Contacts </a></li>
+                                <li><a href="contact.html"> Contact</a></li>
                             </ul>
                             </li>
                             </ul>
@@ -34,7 +33,7 @@
                     <div class="navitems">
                     <img class="logo" src="CaridadCenterLogo.png" alt="The Caridad Center Logo">
                     <!--DONATION BUTTON-->
-                    <button type="button" class="donationbutton"><a href="">Donate Now!</a></button>
+                    <button type="button" class="donationbutton"><a href="index.html">Donate Now!</a></button>
                     </div>
                      
         </header>
