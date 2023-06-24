@@ -1,0 +1,115 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="CaridadCenterLogo.png" type="image/png">
+        <script src="js/script.js">
+        </script>
+        <title> Caridad Center - Home </title>
+    </head>
+    <body>
+        <!--HEADER Include navigation, logo, & donation button -->
+        <header>
+            <!--<h1>Caridad</h1>-->
+            <!--NAVIGATION DROPDOWN MENU-->
+            <h1> Welcome to the Caridad Center</h1>
+                    <div class="headernav">
+                        <nav> 
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="home.html">Caridad Center</a>
+                            <ul class="dropdown-menu"> 
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="opportunities.html">Opportunities</a></li>
+                                <li><a href="contact.html"> Contacts </a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--LOGO IMAGE-->
+                    <div class="navitems">
+                    <img class="logo" src="CaridadCenterLogo.png" alt="The Caridad Center Logo">
+                    <!--DONATION BUTTON-->
+                    <button type="button" class="donationbutton">Donate Now!</button>
+                    </div>
+                     
+        </header>
+        <main>  
+            <!--MAIN PHOTO W/ TWO FEMALE DOCTORS-->
+            <div class="mainimgcontainer">
+            <img class="mainimg" src="Doctor.jpg" alt="Two female Doctors checking male child patient">
+            </div>
+             <!--HOMEMENU-->
+             <div class="homemenu">
+                <ul class="circlemenu"> 
+                    <li><a href="medical-clinic.html"> <img src="MedicalClinic.jpg" alt="Male Doctor check child female patient's heart"> <span>Medical Clinic</span></a></li>
+                    <li><a href="dental-clinic.html"> <img src="DentalClinic.jpg" alt="Male Dentist checking child male patient's eyes"> <span> Dental Clinic </span></a></li>
+                    <li><a href="eye-clinic.html"> <img src="EyeClinic.jpg" alt="Male eye Doctor checking child female patient's eyes"><span> Eye Clinic</span></a></li>
+                    <li><a href="peo.html"> <img src="PEO.jpg" alt="Three children smiling with family in the background"> <span>Prevention, Education &amp; Outreach </span></a></li>
+                    <li><a href="social-services.html"> <img src="/img/SocialServices.jpg" alt="Two girls reading a book on the carpet"> <span>Social Services</span> </a></li>
+                </ul>
+            </div>
+            <!--ARTICLE/MAIN INFORMATION ON THE HOME PAGE-->
+            <article> 
+                <!--Mission Statement-->
+                <h2> Caridad Center is the largest free clinic in Florida</h2>
+                <p class="missionstatement"> Caridad Center's mission and vision is to upgrade the health, education, and living standards of underserved children and families; and to eliminate the cycle of poverty for the families we serve in South Florida.</p>
+
+                <h2>CARIDAD CENTER OFFERING COVID-19 VACCINE </h2>
+
+                <p>Caridad Center is partnering with the Palm Beach County Health Department to provide COVID-19 vaccines at the Caridad Center every Thursday, from 9:00 am – 12:00 pm by appointment only. Call now to make an appointment: <a href="tel:+561-600-1675" >561-600-1675</a></p>
+
+                <p> The Pfizer and Moderna vaccines are provided by the Department of Health (DOH).  The vaccination shots will be administered to anyone eligible.   For more information about the vaccination program or to make an appointment please call the Caridad Center Vaccine Hotline at <a href="tel:+561-600-1675" >561-600-1675</a>.</p>
+                <!--YOUTUBE VIDEO-->
+                <div id="video-container">
+                    <!-- Paste the generated HTML code here -->
+                    <iframe width="806" height="653" src="https://www.youtube.com/embed/z6oUk3ND_6c" title="Caridad Center Narrative Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="stat-list">
+                    <ul class="stat-list"> 
+                        <li class="stat"><em> 28000 </em> <p>Primary and specialty care patient visits in our medical, dental, and behavioral health clinics and dispensary.</p></li>
+                        <li class="stat"><em>4291</em><p>Services provided by our Social Services Department for families facing financial insecurities.</p></li>
+                        <li class="stat"><em>24000</em><p>Over 24,000 individuals participated in our various health education, screenings, and chronic disease management programs administered by our Prevention, Education, and Training Department (PET).</p></li>
+                        <li class="stat"><em>$5100000</em><p>Over $5.1 million dollars in healthcare services were provided last year by our 217 Volunteers Doctors and Dentists.
+                        </p></li>
+                        <li class="stat"><em>5th</em><p>Florida has the fifth highest rate of UNINSURED PEOPLE in the nation.</p></li>
+                        <li class="stat"><em>28%</em><p>In Palm Beach County, over 28% of the resident DO NOT have health insurance.</p></li>
+                        <li class="stat"><em>$50</em><p>On average it cost over $50 per patient visit in our medical clinic, & over $65 per patient visit in our dental clinic.</p></li>
+                        <li class="stat"><em>$27m</em><p>Caridad Center’s medical treatment & preventative care is estimated to SAVE Palm Beach County over $27 million annually.</p></li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <h4>Location</h4>
+            <ul class="location-list"> 
+                <li>8645 W Boynton Beach Blvd
+                    Boynton Beach, FL 33472</li>
+            </ul>
+            <!--CLINICAL HOURS LINKS TO THE CLINIC HTML PAGES-->
+            <h4>Clinic Hours </h4> 
+                <ul class="clinic-hour-list"> 
+                    <li><a href="medical-clinic.html">Medical Clinic Hours</a></li>
+                    <li><a href="eye-clinic.html">Eye Clinic Hours</a></li>
+                    <li><a href="dental-clinic.html">Dental Clinic Hours</a></li>
+                </ul>
+            <h4>Connect with Us </h4>
+            <!--Social Media Handles -->
+            <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/Caridadcenter?ref=ts" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com//Caridad_Center" target="_blank"><img src="twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/Caridad_Center" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCergdyGoGScr8yByuc5KnhA" target="_blank"><img src="youtube.png" target="_blank"></as>
+              </ul>
+            <!--Copyright-->
+            <div class="copyright">
+                <p>Caridad Center &copy; 2022 All rights reserved.</p>
+            </div>  
+        </footer>
+</html>
